@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +7,7 @@ session_start();
     <title>Document</title>
 
     <style>
-        /*--
+           /*--
 Author: Colorlib
 Author URL: https://colorlib.com
 License: Creative Commons Attribution 3.0 Unported
@@ -773,25 +770,18 @@ input.checkbox:checked:after {
     padding: 1em 0 0;
   }
 }
+
     </style>
 </head>
-<?php
-			if(isset($_SESSION['msg'])){
-				echo $_SESSION['msg'];
-				unset($_SESSION['msg']);
-			}
-		?>
 <body>
-<div class="main-w3layouts wrapper">
-<h1>Cadastrar</h1>
+
+<<div class="main-w3layouts wrapper">
+<h1>Alterar</h1>
 <div class="main-agileinfo">
 <div class="agileits-top">
-    <form action="cad.php" method="Post">
-        <label >Nome</label>
-        <input type="text" name="nome" placeholder="Digite seu nome" require>
-        <label>Email</label>
-        <input type="text" name="email" placeholder="Digite seu email" require>
-        <label >usuario</label>
+    <form action="alt_senha.php" method="Post">
+       
+        <label >Usuario</label>
         <input type="text" name="usuario" placeholder="Digite o usuario" require>
         <label >Senha</label>
         <input type="password" name="senha" placeholder="Digite sua senha" require>
@@ -802,13 +792,13 @@ input.checkbox:checked:after {
 						</label>
 						<div class="clear"> </div>
 					</div>
-        <input type="submit" name="btnLogin" value="Enviar" require>
+        <input type="submit" name="btnLogin" value="Alterar" require>
     </form>
     </div>
 		</div>
 
         <div class="colorlibcopy-agile">
-			<p>© Todos Direitos Reservados </p>
+			<p>© Todos Direitos Reservados</a></p>
 		</div>
 		<!-- //copyright -->
 		<ul class="colorlib-bubbles">

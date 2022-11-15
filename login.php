@@ -158,10 +158,11 @@ button{
 			<label>Senha</label>
 			<input type="password" name="senha" placeholder="Digite a sua senha"><br><br>
 			</div>
+            
 			<button type="submit" name="btnLogin" value="Acessar">Acessar</button>
             
             <div class="links-uteis">
-            <a href=""><p>Esqueceu a sua senha ?</p></a>
+            <a href="alterar.php"><p>Esqueceu a sua senha ?</p></a>
             <a href="cadastro.php"><p>Ainda não sou cadastrado</p></a>
         </div>
        
