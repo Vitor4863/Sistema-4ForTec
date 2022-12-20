@@ -16,3 +16,11 @@ INSERT INTO `usuarios` ( `nome`, `email`, `usuario`, `senha`) VALUES
 
 
 select * from usuarios;
+
+CREATE TABLE produtoC (
+  id int primary key auto_increment,
+  descricao varchar(220) NOT NULL,
+  quantidade varchar(220) NOT NULL,
+  preco varchar(220) NOT NULL,
+  online  boolean
+);
